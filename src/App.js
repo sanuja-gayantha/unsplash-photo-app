@@ -19,14 +19,6 @@ function App() {
     setChange(true);
   }
 
-  // if (photos.length < 1) {
-  //   return (
-  //     <h2 className='section-title'>
-  //       no cocktails matched your search criteria
-  //     </h2>
-  //   )
-  // }
-
   if (error === 403) {
     return (
       <Error/>  
